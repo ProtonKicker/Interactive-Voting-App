@@ -1,0 +1,24 @@
+{
+  "identifier": "com.votecounter.app",
+  "productName": "Vote Counter",
+  "version": "1.0.0",
+  "build": {
+    "beforeBuildCommand": "npm run build",
+    "beforeDevCommand": "npm run dev",
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:5173"
+  },
+  "app": {
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "title": "Vote Counter",
+        "width": 800,
+        "height": 600,
+        "resizable": true
+      }
+    ]
+  }
+}

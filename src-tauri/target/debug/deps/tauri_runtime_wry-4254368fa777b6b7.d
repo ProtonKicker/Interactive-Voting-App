@@ -1,0 +1,9 @@
+/Users/xianliding/GitHub/Interactive-Voting-App/src-tauri/target/debug/deps/libtauri_runtime_wry-4254368fa777b6b7.rmeta: /Users/xianliding/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-runtime-wry-2.4.1/src/lib.rs /Users/xianliding/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-runtime-wry-2.4.1/src/util.rs /Users/xianliding/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-runtime-wry-2.4.1/src/webview.rs /Users/xianliding/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-runtime-wry-2.4.1/src/window/mod.rs /Users/xianliding/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-runtime-wry-2.4.1/src/window/macos.rs
+
+/Users/xianliding/GitHub/Interactive-Voting-App/src-tauri/target/debug/deps/tauri_runtime_wry-4254368fa777b6b7.d: /Users/xianliding/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-runtime-wry-2.4.1/src/lib.rs /Users/xianliding/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-runtime-wry-2.4.1/src/util.rs /Users/xianliding/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-runtime-wry-2.4.1/src/webview.rs /Users/xianliding/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-runtime-wry-2.4.1/src/window/mod.rs /Users/xianliding/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-runtime-wry-2.4.1/src/window/macos.rs
+
+/Users/xianliding/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-runtime-wry-2.4.1/src/lib.rs:
+/Users/xianliding/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-runtime-wry-2.4.1/src/util.rs:
+/Users/xianliding/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-runtime-wry-2.4.1/src/webview.rs:
+/Users/xianliding/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-runtime-wry-2.4.1/src/window/mod.rs:
+/Users/xianliding/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-runtime-wry-2.4.1/src/window/macos.rs:
