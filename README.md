@@ -13,7 +13,7 @@ A simple and elegant voting application built with Tauri and React, designed to 
 ## Installation
 
 ### macOS
-Download the latest `.dmg` file from the [Releases](https://github.com/yourusername/vote-counter/releases) page and follow the installation instructions.
+Download the latest `.dmg` file from the [Releases](https://github.com/ProtonKicker/Interactive-Voting-App/releases/tag/publish) page and follow the installation instructions.
 
 ### Building from Source
 
