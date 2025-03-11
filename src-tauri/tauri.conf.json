@@ -20,5 +20,17 @@
         "resizable": true
       }
     ]
+  },
+  "bundle": {
+    "active": true,
+    "icon": ["icons/icon.png"],
+    "targets": ["dmg"],
+    "macOS": {
+      "frameworks": [],
+      "minimumSystemVersion": "",
+      "exceptionDomain": "",
+      "signingIdentity": null,
+      "entitlements": null
+    }
   }
 }
