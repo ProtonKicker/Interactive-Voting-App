@@ -1,54 +1,63 @@
-# React + TypeScript + Vite
+# Vote Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant voting application built with Tauri and React, designed to make group decision-making easy and efficient. This desktop application provides a clean interface for real-time vote counting and result visualization.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🗳️ Real-time vote counting
+- 📊 Instant result visualization
+- 🎯 Simple and intuitive interface
+- ⚡ Lightweight and fast performance
+- 💻 Cross-platform support
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### macOS
+Download the latest `.dmg` file from the [Releases](https://github.com/yourusername/vote-counter/releases) page and follow the installation instructions.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### Building from Source
+
+1. Prerequisites:
+   - [Node.js](https://nodejs.org/) (v16 or later)
+   - [Rust](https://rustup.rs/) (latest stable)
+
+2. Clone and Build:
+   ```bash
+   # Clone the repository
+   git clone https://github.com/yourusername/vote-counter.git
+   cd vote-counter
+
+   # Install dependencies
+   npm install
+
+   # Build the application
+   cargo tauri build
+   ```
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+cargo tauri dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Usage
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Launch Vote Counter
+2. Use the + and - buttons to count votes
+3. Reset the counter when needed
+4. View the current count in real-time
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Contributing
+
+Contributions are welcome! Feel free to:
+- Report bugs
+- Suggest new features
+- Submit pull requests
+
+## License
+
+This project is licensed under the MIT License.
