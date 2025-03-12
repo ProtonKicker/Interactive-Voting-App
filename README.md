@@ -2,7 +2,8 @@
 
 A simple and elegant voting application built with Tauri and React, designed to make group decision-making easy and efficient. This desktop application provides a clean interface for real-time vote counting and result visualization.
 
-** Entirely Made by AI! **
+**Entirely Made by AI ChatBots!**  
+
 
 ## Features
 
