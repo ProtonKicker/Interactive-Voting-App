@@ -10,6 +10,13 @@ A simple and elegant voting application built with Tauri and React, designed to 
 - ⚡ Lightweight and fast performance
 - 💻 Cross-platform support
 
+## Tech Stack
+
+- **Frontend Framework**: React with TypeScript
+- **UI Styling**: Tailwind CSS
+- **Desktop Framework**: Tauri (Rust)
+- **Build Tool**: Vite
+
 ## Installation
 
 ### macOS
@@ -38,10 +45,10 @@ Download the latest `.dmg` file from the [Releases](https://github.com/ProtonKic
 
 ```bash
 # Install dependencies
-npm install
+ npm install
 
 # Start development server
-cargo tauri dev
+ cargo tauri dev
 ```
 
 ## Usage
@@ -60,4 +67,12 @@ Contributions are welcome! Feel free to:
 
 ## License
 
-This project is licensed under the MIT License.
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material for any purpose, even commercially
+
+Under the following terms:
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made
+- ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original
